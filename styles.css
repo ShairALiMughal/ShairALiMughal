@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.timer {
+    font-size: 17rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.controls, .time-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+#startBtn { background-color: #4CAF50; }
+#pauseBtn { background-color: #FFC107; }
+#stopBtn { background-color: #F44336; }
+#resetBtn { background-color: #2196F3; }
+
+.buzzer-info {
+    font-size: 2rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,73 @@
+{
+    "data": {
+        "id": "eyJ1ZHBybiI6ICIyMTgwMTEwNiJ9",
+        "type": "property",
+        "attributes": {
+            "street_group_property_id": "eyJ1ZHBybiI6ICIyMTgwMTEwNiJ9",
+            "address": {
+                "royal_mail_format": {
+                    "organisation_name": null,
+                    "department_name": null,
+                    "building_number": null,
+                    "building_name": "49b",
+                    "sub_building_name": null,
+                    "thoroughfare": "London Road",
+                    "dependent_thoroughfare": null,
+                    "dependent_locality": null,
+                    "double_dependent_locality": null,
+                    "post_town": "LONDON",
+                    "postcode": "SE23 3TY"
+                },
+                "street_group_format": {
+                    "address_lines": "49b London Road, LONDON",
+                    "postcode": "SE23 3TY"
+                },
+                "simplified_format": {
+                    "house_number": "49b",
+                    "street": "London Road",
+                    "locality": null,
+                    "town": "LONDON",
+                    "postcode": "SE23 3TY"
+                },
+                "is_none_residential": false
+            },
+            "localities": {
+                "conservation_area_data_available": true,
+                "conservation_area": "0",
+                "ward": null,
+                "local_authority": "Lewisham",
+                "county": "(pseudo) England (UA/MD/LB)",
+                "country": "England",
+                "national_park": null,
+                "police_force": "Metropolitan Police"
+            },
+            "identities": {
+                "street_group_property_id": "eyJ1ZHBybiI6ICIyMTgwMTEwNiJ9",
+                "royal_mail": {
+                    "udprn": "21801106",
+                    "umprn": null
+                },
+                "ordnance_survey": {
+                    "uprn": "100021981075",
+                    "parent_uprn": null,
+                    "usrn": "22004293",
+                    "os_topo_toid": "osgb1000006276766",
+                    "os_address_toid": "osgb1000002148372937",
+                    "os_roadlink_toid": "osgb5000005309370963"
+                }
+            },
+            "location": {
+                "coordinates": {
+                    "longitude": -0.0562657,
+                    "latitude": 51.4396719
+                },
+                "type": "property"
+            }
+        }
+    },
+    "meta": {
+        "address_match_confidence": 1.0,
+        "request_cost_gbp": 0.0,
+        "balance_gbp": 49.28
+    }
+}
